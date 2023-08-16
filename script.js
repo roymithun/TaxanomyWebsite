@@ -29,7 +29,7 @@ fetch(url)
       row.innerHTML = `
         <td>${item.name}</td>
         <td>${item.scientific_name}</td>
-        <td><img src="${item.url}" alt="${item.name}"></td>
+        <td><img src="${item.url}" alt="${item.name}" class="table-image"></td>
       `;
       tbody.appendChild(row);
     });
