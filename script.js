@@ -8,21 +8,6 @@ const url = 'https://o59w7.wiremockapi.cloud/taxanomy';
 fetch(url)
   .then(response => response.json()) // Parse the JSON response
   .then(data => {
-    // // Loop through the array of objects and build HTML content
-    // let htmlContent = '';
-    // data.forEach(item => {
-    //   htmlContent += `
-    //     <div>
-    //       <p>Name: ${item.name}</p>
-    //       <p>Scientific Name: ${item.scientific_name}</p>
-    //       <p>Url: ${item.url}</p>
-    //     </div>
-    //   `;
-    // });
-
-    // // Update the HTML content to display the fetched data
-    // jsonDataElement.innerHTML = htmlContent;
-
     // Create a table
     const table = document.createElement('table');
     table.innerHTML = `
