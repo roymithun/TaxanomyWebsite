@@ -29,8 +29,8 @@ function loadTabContent(tableDiv, url) {
       tbody.appendChild(row);
     });
 
-    // Append the table to the jsonDataElement
-    jsonDataElement.appendChild(table);
+    // Append the table to the tableDiv
+    tableDiv.appendChild(table);
   })
   .catch(error => {
     console.error('Error fetching or parsing JSON:', error);
