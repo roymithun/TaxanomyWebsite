@@ -1,11 +1,11 @@
 // Select the element where you want to display the JSON data
-const jsonDataElement = document.getElementById('flora-json-data');
+const jsonDataElementFauna = document.getElementById('fauna-json-data');
 
 // Replace 'https://example.com/data.json' with the actual URL
 // const url = 'https://o59w7.wiremockapi.cloud/taxanomy';
 
 // Load the JSON data from the local file
-const jsonData = [
+const jsonDataFauna = [
     {
       "name": "Eastern Gray Squirrel",
       "scientific_name": "Sciurus carolinensis",
@@ -28,8 +28,8 @@ const jsonData = [
     }
   ];
 
-const table = document.createElement('table');
-    table.innerHTML = `
+const tableFauna = document.createElement('table');
+    tableFauna.innerHTML = `
       <thead>
         <tr>
           <th>Name</th>
@@ -42,17 +42,17 @@ const table = document.createElement('table');
     `; 
 
     // Populate the table with data
-    const tbody = table.querySelector('tbody');
-    jsonData.forEach(item => {
+    const tbodyFauna = tableFauna.querySelector('tbody');
+    jsonDataFauna.forEach(item => {
       const row = document.createElement('tr');
       row.innerHTML = `
         <td>${item.name}</td>
         <td>${item.scientific_name}</td>
         <td><img src="${item.url}" alt="${item.name}" class="table-image"></td>
       `;
-      tbody.appendChild(row);
+      tbodyFauna.appendChild(row);
     });
 
-    // Append the table to the jsonDataElement
-    jsonDataElement.appendChild(table);
+    // Append the table to the jsonDataElementFauna
+    jsonDataElementFauna.appendChild(tableFauna);
 
