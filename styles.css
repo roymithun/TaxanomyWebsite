@@ -19,4 +19,34 @@ th {
     max-width: 400px;
     max-height: 400px;
 }
-  
+
+/* Style for the tabs container */
+.tab-container {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+
+  /* Style for individual tabs */
+  .tab {
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+
+  /* Style for active tab */
+  .tab.active {
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+  }
+
+  /* Style for tab content */
+  .tab-content {
+    display: none;
+  }
+
+  /* Show tab content when tab is active */
+  .tab-content.active {
+    display: block;
+  }

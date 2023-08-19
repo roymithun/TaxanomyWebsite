@@ -7,7 +7,22 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div id="json-data"></div>
-  <script src="script.js"></script>
+  <div class="tab-container">
+    <div class="tab active" onclick="showTab('tab1')">Flora</div>
+    <div class="tab" onclick="showTab('tab2')">Fauna</div>
+  </div>
+  
+  <div class="tab-content active" id="tab1">
+    <h2>Tab 1 Content</h2>
+    <div id="flora-json-data">This is the content of tab 1.</div>
+  </div>
+  
+  <div class="tab-content" id="tab2">
+    <h2>Tab 2 Content</h2>
+    <div id="fauna-json-data">This is the content of tab 2.</div>
+  </div>
+  <script src="script_tab.js"></script>
+  <script src="script_flora.js"></script>
+  <script src="script_fauna.js"></script>
 </body>
 </html>

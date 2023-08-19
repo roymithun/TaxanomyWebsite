@@ -1,5 +1,5 @@
 // Select the element where you want to display the JSON data
-const jsonDataElement = document.getElementById('json-data');
+const jsonDataElement = document.getElementById('flora-json-data');
 
 // Replace 'https://example.com/data.json' with the actual URL
 // const url = 'https://o59w7.wiremockapi.cloud/taxanomy';
@@ -7,19 +7,24 @@ const jsonDataElement = document.getElementById('json-data');
 // Load the JSON data from the local file
 const jsonData = [
     {
-      "name": "Tulip",
-      "scientific_name": "Tulipa spp",
-      "url": "https://tinyurl.com/47hnr6jv"
+      "name": "Eastern Gray Squirrel",
+      "scientific_name": "Sciurus carolinensis",
+      "url": "https://i.pinimg.com/originals/fc/1f/e5/fc1fe59118e63c4e109f8728cadebbd6.jpg"
     },
     {
-      "name": "Rose",
-      "scientific_name": "Rosa spp",
-      "url": "https://cdn.wallpapersafari.com/69/75/FmR2l5.jpg"
+      "name": "American Robin",
+      "scientific_name": "Turdus migratorius",
+      "url": "https://www.allaboutbirds.org/guide/assets/photo/60412911-1900px.jpg"
     },
     {
-      "name": "Carnation",
-      "scientific_name": "Dianthus caryophyllus",
-      "url": "https://images.freeimages.com/images/large-previews/0fd/carnation-flower-1633539.jpg"
+      "name": "Mallard Duck",
+      "scientific_name": "Anas platyrhynchos",
+      "url": "https://www.wildlifeillinois.org/wp-content/uploads/2019/01/Mallard-Askren.jpeg"
+    },
+    {
+      "name": "White-tailed Deer",
+      "scientific_name": "Odocoileus virginianus",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Odocoileus_virginianus_clavium_fawn.jpg"
     }
   ];
 
