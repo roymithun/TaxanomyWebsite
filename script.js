@@ -36,3 +36,12 @@ function loadTabContent(tableDiv, url) {
     console.error('Error fetching or parsing JSON:', error);
   });  
 }
+
+let arrayOfElements = [
+  {element: document.getElementById('flora-json-data'), url: 'https://5z4j4.wiremockapi.cloud/flora-data'}, 
+  {element: document.getElementById('fauna-json-data'), url: 'https://5z4j4.wiremockapi.cloud/fauna-data'}
+]
+
+arrayOfElements.forEach(item => {
+  loadTabContent(item.element, item.url)
+})

@@ -12,9 +12,4 @@ function showTab(tabId) {
     tabs.forEach(tab => tab.classList.remove('active'));
     const selectedTab = document.querySelector(`.tab#${tabId}`);
     selectedTab.classList.add('active');
-    if (tabId == 'tab1') {
-        loadTabContent(document.getElementById('flora-json-data'), 'https://5z4j4.wiremockapi.cloud/flora-data')
-    } else {
-        loadTabContent(document.getElementById('fauna-json-data'), 'https://5z4j4.wiremockapi.cloud/fauna-data')
-    }
 }
