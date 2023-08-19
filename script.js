@@ -1,11 +1,6 @@
-// Select the element where you want to display the JSON data
-const jsonDataElement = document.getElementById('json-data');
-
-// Replace 'https://example.com/data.json' with the actual URL
-const url = 'https://o59w7.wiremockapi.cloud/taxanomy';
-
-// Fetch the JSON data from the URL
-fetch(url)
+function loadTabContent(tableDiv, url) {
+  // Fetch the JSON data from the URL
+  fetch(url)
   .then(response => response.json()) // Parse the JSON response
   .then(data => {
     // Create a table
@@ -39,4 +34,5 @@ fetch(url)
   })
   .catch(error => {
     console.error('Error fetching or parsing JSON:', error);
-  });
+  });  
+}
