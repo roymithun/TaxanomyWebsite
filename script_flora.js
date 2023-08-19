@@ -23,18 +23,18 @@ const jsonData = [
     },
 	{
       "name": "Daffodil",
-      "scientific_name": "Syringa vulgaris",
+      "scientific_name": "Narcissus",
       "url": "https://mcdn.wallpapersafari.com/medium/14/33/YFfGz7.jpg"
     },
 	{
       "name": "Lilac",
-      "scientific_name": "Dianthus caryophyllus",
+      "scientific_name": "Syringa vulgaris",
       "url": "https://as1.ftcdn.net/v2/jpg/02/07/98/94/1000_F_207989400_FGXAWjokAh1ZnXmSjbJlvr9rahDqtsEy.jpg"
     },
 	{
-      "name": "Carnation",
-      "scientific_name": "Dianthus caryophyllus",
-      "url": "https://images.freeimages.com/images/large-previews/0fd/carnation-flower-1633539.jpg"
+      "name": "Sunflower",
+      "scientific_name": "Helianthus annuus",
+      "url": "https://c4.wallpaperflare.com/wallpaper/280/716/905/sun-flower-yellow-flowers-grass-wallpaper-preview.jpg"
     }
   ];
 
