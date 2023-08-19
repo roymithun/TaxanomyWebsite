@@ -12,14 +12,14 @@ const jsonData = [
       "url": "https://tinyurl.com/47hnr6jv"
     },
     {
-      "name": "Tulip",
-      "scientific_name": "Tulipa spp",
-      "url": "https://tinyurl.com/47hnr6jv"
+      "name": "Rose",
+      "scientific_name": "Rosa spp",
+      "url": "https://cdn.wallpapersafari.com/69/75/FmR2l5.jpg"
     },
     {
-      "name": "Tulip",
-      "scientific_name": "Tulipa spp",
-      "url": "https://tinyurl.com/47hnr6jv"
+      "name": "Carnation",
+      "scientific_name": "Dianthus caryophyllus",
+      "url": "https://images.freeimages.com/images/large-previews/0fd/carnation-flower-1633539.jpg"
     }
   ];
 
