@@ -6,15 +6,52 @@ table {
 }
   
 th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
+    border: 1px solid #9c8b8b;
     text-align: left;
 }
-  
+
 th {
     background-color: #f2f2f2;
+    padding: 8px;
+    font-size: 24px;
 }
-  
+
+td {
+    vertical-align: top;
+    padding: 8px;
+}
+
+.fun-facts {
+    font-family: 'Indie Flower', cursive; /* Apply the font */
+    font-size: 24px;
+    color: #ff69b4; /* Pick a fun color! */
+}
+
+.item-name {
+    font-family: 'Quicksand', sans-serif; /* Apply the font */
+    font-size: 28px;
+    color: #ff3333; /* Choose a suitable color */
+}
+
+.scientific-name {
+    font-family: 'EB Garamond', serif; /* Apply the font */
+    font-size: 18px;
+    color: #666; /* Choose a suitable color */
+}
+
+.item-description {
+    font-family: 'Quicksand', sans-serif; /* Apply the font */
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333; /* Choose a suitable color */
+}
+
+.gradient-td {
+    background: linear-gradient(to right, #ffc266, #fbebac);
+    /* You can adjust the gradient direction and colors as needed */
+    padding: 10px;
+}
+
 .table-image {
     max-width: 400px;
     max-height: 400px;

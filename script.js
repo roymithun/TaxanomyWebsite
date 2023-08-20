@@ -8,9 +8,9 @@ function loadTabContent(tableDiv, url) {
     table.innerHTML = `
       <thead>
         <tr>
-          <th>Name</th>
-          <th>Scientific Name</th>
-          <th>Image</th>
+          <th>About me</th>
+          <th>How do I look?</th>
+          <th>Fun facts</th>
         </tr>
       </thead>
       <tbody>
@@ -22,9 +22,13 @@ function loadTabContent(tableDiv, url) {
     data.forEach(item => {
       const row = document.createElement('tr');
       row.innerHTML = `
-        <td>${item.name}</td>
-        <td>${item.scientific_name}</td>
+        <td>
+          <div class="item-name">${item.name}</div>
+          <div class="scientific-name"><p><b>Scientific Name:</b> <i>${item.scientific_name}</i></p></div>
+          <div class="item-description"><b>Description:</b> ${item.description}</div>
+        </td>
         <td><img src="${item.url}" alt="${item.name}" class="table-image"></td>
+        <td class="fun-facts">${item.fun_fact}</td>
       `;
       tbody.appendChild(row);
     });
